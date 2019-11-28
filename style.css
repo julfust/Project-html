@@ -1,0 +1,202 @@
+body{
+    margin: 0;
+}
+
+#main-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#header-top{
+    background-color: #353434;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-top nav{
+    margin: 10px 0;
+}
+
+#header-top a{
+    text-decoration: none;
+    color: grey;
+    padding: 3px;
+}
+
+#header-top nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: grey;
+    border-right: 2px solid grey;
+    padding: 3px 7px 3px 5px;
+}
+
+#header-top nav a:nth-last-child{
+    border-right: none;
+}
+
+#s-n-icons{
+    font-size: 35px;
+    margin-right: 5%; 
+}
+
+#header-top #s-n-icons div{
+    background-color: #222222;
+    width: 75px;
+    height: 75%;
+    display: inline-block;
+    margin-left: -6px;
+    line-height: 2em;
+}
+
+#header-main-title{
+    margin: 45px 0;
+}
+
+#header-main-title h1, #header-main-title h5{
+    text-align: center;
+    margin: 0;
+}
+
+#header-main-title h1{
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+#header-main-title h5{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: grey;
+}
+
+header > nav{
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    display: flex;
+    justify-content: center;
+}
+
+header > nav div{
+    border-right: 1px solid silver;
+    padding: 18px 18px 18px 8px;
+}
+
+header > nav div:first-child{
+    border-left: 1px solid silver;
+}
+
+/* Methode alternative pour faire apparaite avant un ou une série d'élément html
+header > nav div:before{
+    content:'\25bc';
+    font-size: 8px;
+    margin-right: 4px;
+}
+
+header nav a:hover{
+    color: orange;
+}
+
+header > nav div:hover:before{
+    content: '';
+}
+*/
+
+header > nav a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+#top-actus{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    background-color: #f0ebeb;
+}
+
+.top-actus-side{
+    width: 48%;
+    border: 1px solid;
+}
+
+.top-actus-right{
+    border: 1px solid;
+    height: 200px;
+}
+
+#top-actus >.top-actus-side:first-child{
+    margin-left: 5px;
+    background-color: white;
+}
+
+#top-actus > .top-actus-side:first-child img{
+    width: 100%;
+;}
+
+.actu-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.actu-content > *{
+    color: grey;
+}
+
+.actu-content h3{
+    color: black;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.actu-content p{
+    text-align: center;
+    margin-top: 0;
+    font-size: 1.5vw;
+}
+
+.actu-date-and-comments{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+
+.actu-comments{
+    color: orange;
+}
+
+.actu-content > a{
+    padding: 10px;
+    border: 1px solid orange;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+.top-actus-right{
+    display: flex;
+    background-color: white;
+    height: 300px;
+}
+
+.top-actus-right img{
+    width: 50%;
+    height: 100%;
+    background-image: url("assets/img/tennage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#top-actus-right-img-1{
+    background-image: url()
+}
+
+.top-actus-right .actus-content{
+    padding: 0;
+    width: 50%;
+}
